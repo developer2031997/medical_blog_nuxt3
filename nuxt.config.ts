@@ -16,7 +16,5 @@ export default defineNuxtConfig({
   plugins: [
     { src: '~/plugins/bootstrap.client.ts', mode: 'client' },
   ],
-  // Ensure you have the right settings for production
-  target: 'server',
-  ssr: true,
+  
 })
