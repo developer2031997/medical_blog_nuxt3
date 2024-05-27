@@ -1,15 +1,15 @@
 <template>
  
-        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow" :class="{ 'sticky-nav': isSticky }">
-  <div class="container-fluid">
+ <nav class="navbar navbar-expand-lg menubar-bg shadow" :class="{ 'sticky-nav': isSticky }">
+  <div class="container">
    <div class="">
     <NuxtLink class="navbar-brand"  to="/">Medical Blog Website</NuxtLink>
    </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav  mb-2 mb-lg-0">
         <li class="nav-item">
           <p class="nav-link active" aria-current="page" ><NuxtLink to="/">Home</NuxtLink></p>
         </li>
@@ -35,7 +35,6 @@
    
   <div class="">
     <slot />
-
 </div>
    
 </template>
@@ -52,7 +51,7 @@ const handleScroll = () => {
 };
 
 onMounted(() => {
-  window.addEventListener('scroll', handleScroll);
+  // window.addEventListener('scroll', handleScroll);
 });
 
 onUnmounted(() => {
@@ -63,9 +62,18 @@ onUnmounted(() => {
 <style scoped>
 a, NuxtLink{
   text-decoration: none;
+  color:#fff!important;
+
+}
+a:hover{
+  font-weight: 600;
 }
 p{
   padding-bottom: 0;
+  margin: 0 0 7px;
+}
+.menubar-bg{
+ background: #003A70; 
 }
 .sticky-nav {
   position: fixed;

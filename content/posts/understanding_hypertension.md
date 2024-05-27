@@ -1,6 +1,7 @@
 ---
 title: "Understanding Hypertension"
-date: 2024-05-24 10:00AM
+date: "2024-05-08" 
+time : "10:00:00"
 draft: false
 tags: ["medicine", "hypertension", "cardiology"]
 thumbnail: "/img/hypertension.jpg"

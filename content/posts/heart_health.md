@@ -1,6 +1,7 @@
 ---
 title: "Heart Health: Tips for a Stronger Heart"
-date: 2024-05-24 04:00PM
+date: "2024-05-04"
+time : "04:00:00"
 draft: false
 tags: ["medicine", "heart health", "cardiology"]
 thumbnail: "/img/heart_health.jpg"

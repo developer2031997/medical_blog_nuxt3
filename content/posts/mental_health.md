@@ -1,6 +1,7 @@
 ---
 title: "Mental Health: Breaking the Stigma"
-date: 2024-05-24 01:00PM
+date: "2024-05-05"
+time : "01:00:00"
 draft: false
 tags: ["medicine", "mental health", "psychology"]
 thumbnail: "/img/mental_health.jpg"

@@ -1,6 +1,7 @@
 ---
 title: "Asthma: Causes, Symptoms, and Treatment"
-date: 2024-05-24 12:00PM
+date: "2024-05-02"
+time : "12:30:00"
 draft: false
 tags: ["medicine", "asthma", "respiratory"]
 thumbnail: "/img/astama.jpg"
