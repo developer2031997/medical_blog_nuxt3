@@ -65,10 +65,10 @@ a, NuxtLink{
   color:#fff!important;
 
 }
-a:hover{
+.nav-link a:hover{
   font-weight: 600;
 }
-p{
+p{ 
   padding-bottom: 0;
   margin: 0 0 7px;
 }
