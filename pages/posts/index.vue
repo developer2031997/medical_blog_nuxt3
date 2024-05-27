@@ -19,6 +19,7 @@
           <!-- {{ search }} -->
         </form>
       </div>
+      <hr/>
       <div class="col-lg-12">
         <div v-if="filteredPosts" class="row justify-content-around">
           <div v-for="article in filteredPosts" :key="article._id" class="card col-lg-4 my-4" style="width: 21.5rem;">
