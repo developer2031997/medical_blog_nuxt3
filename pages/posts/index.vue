@@ -45,9 +45,9 @@
                 <img v-if="article.thumbnail" :src="article.thumbnail" class="img-fluid w-100" alt="Thumbnail">
               <hr />
               <div class="card-body">
-                <h2 class="card-title">
+                <h4 class="card-title">
                   {{ article.title }}
-                </h2>
+                </h4>
                 <div v-if="article.tags">
                   <p v-for="tag in article.tags" :key="tag" class="mx-1 badge post-tag p-2">{{ tag }}</p>
                 </div>
