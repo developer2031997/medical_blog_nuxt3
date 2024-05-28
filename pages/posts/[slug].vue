@@ -35,6 +35,9 @@
         </div>
         </ContentDoc>
     </div>
+    <div class="col-lg-12 text-center pt-5">
+      <NuxtLink :to="`/posts`" class="btn btn-back"><b>Back</b></NuxtLink>
+    </div>
   </div>
 </div>
 
@@ -72,4 +75,14 @@ li.breadcrumb-item.active b, li.breadcrumb-item{
   color : #fff!important;
 
 }
+
+.btn-back{
+    background-color:#003A70 ;
+    /* padding: 6px 20px; */
+    color: #fff;
+    font-weight: 600;
+  }
+  .btn-back:hover{
+    background-color: #ddd;
+  }
 </style>
