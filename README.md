@@ -1,5 +1,3 @@
-URL :- https://6655ba3e43b44bf122f8e166--dynamic-unicorn-8f63c1.netlify.app/
-
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
