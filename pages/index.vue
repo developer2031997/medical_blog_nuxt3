@@ -56,7 +56,14 @@
 </template>
 
 <script setup>
+useHead({
+  title: "Nuxt Content Medical Blog"
+});
 
 </script>
 
-<style scoped></style>
+<style >
+body {
+    font-family: 'Poppins',sans-serif;
+}
+</style>

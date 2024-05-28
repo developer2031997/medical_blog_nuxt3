@@ -83,6 +83,9 @@
 </template>
 
 <script setup>
+useHead({
+  title: "Nuxt Content Medical Blog"
+});
 
 </script>
 

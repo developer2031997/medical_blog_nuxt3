@@ -43,6 +43,21 @@
 
 <script setup>
 const { slug } = useRoute().params;
+const doc = ref(null);
+
+const fetchDoc = async () => {
+  const { data } = await useAsyncData(`doc-${slug}`, () => $fetch(`/posts/${slug}`));
+  doc.value = data.value;
+};
+onMounted(fetchDoc);
+
+watch(doc, (newDoc) => {
+  if (newDoc) {
+    useHead({
+      title: newDoc.title
+    });
+  }
+});
 </script>
 
 <style>
