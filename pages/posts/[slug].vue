@@ -29,7 +29,7 @@
           </div>
         </ContentDoc>
       </div>
-      <div class="col-lg-12 text-center pt-5">
+      <div class="col-lg-12 text-center pt-3">
         <NuxtLink :to="`/posts`" class="btn btn-back"><b>Back</b></NuxtLink>
       </div>
     </div>

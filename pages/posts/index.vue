@@ -57,8 +57,8 @@
                   <p v-for="tag in article.tags" :key="tag" class="mx-1 badge post-tag p-2">{{ tag }}</p>
                 </div>
                 <div class="d-flex justify-content-between">
-                  <p><b>Date : {{ article.date }}</b></p>
-                  <p><b>{{ article.time }}</b></p>
+                  <p>🕒 {{ article.date }}</p>
+                  <p>{{ article.time }}</p>
                 </div>
               </div>
             </NuxtLink>
@@ -66,11 +66,11 @@
         </div>
 
         <div v-if="loading" class="row text-center py-5 my-5" >
-          <h2 >Data Is fetching, please wait ....</h2>
+          <h2 >Data Is Fetching, Please Wait ....</h2>
         </div>
 
         <div v-if="noDataFound" class="row text-center py-5 my-5">
-          <h2>Article not found...</h2>
+          <h2>Article Not Found...</h2>
         </div>
       </div>
       <!-- <div  v-if="filteredPosts.length" v-else>
