@@ -331,4 +331,10 @@ body {
 .btn-clear:hover {
   background-color: #ddd;
 }
+
+@media screen and (max-width : 480px){
+  .post-input {
+  width: 320px !important;
+}
+}
 </style>
