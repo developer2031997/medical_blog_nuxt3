@@ -1,7 +1,7 @@
 ---
 title: "Managing Chronic Pain: Strategies and Treatment Options"
-date: "2024-05-28"
-time: "10:00:00"
+date: "MAY 28,2024"
+time: "10:00 AM"
 draft: false
 tags: ["medicine", "chronic pain", "pain management"]
 thumbnail: "/img/chronic_pain.jpg"

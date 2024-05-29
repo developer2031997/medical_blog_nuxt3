@@ -1,6 +1,7 @@
 ---
 title: "Risk Factors for Hypertension"
-date: 2024-05-28
+date: "MAY 22,2024"
+time: "11:00 AM"
 draft: false
 tags: ["medicine", "hypertension", "cardiology"]
 thumbnail: "/img/hypertension-risk-factors.jpg"

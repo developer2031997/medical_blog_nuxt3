@@ -1,7 +1,7 @@
 ---
 title: "The Importance of Vaccination"
-date: "2024-05-09"
-time : "02:00:00"
+date:  "MAY 29,2024"
+time : "02:00 PM"
 draft: false
 tags: ["medicine", "vaccination", "public health"]
 thumbnail: "/img/vaccination.jpg"

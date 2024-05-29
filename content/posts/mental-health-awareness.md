@@ -1,7 +1,7 @@
 ---
 title: "Mental Health Awareness"
-date: "2024-05-11"
-time : "14:00:00"
+date: "MAY 11,2024"
+time : "02:00 PM"
 draft: false
 tags: ["mental health", "awareness", "well-being"]
 thumbnail: "/img/mental-health.jpg"

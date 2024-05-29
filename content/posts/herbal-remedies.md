@@ -1,7 +1,7 @@
 ---
 title: "Herbal Remedies: Efficacy and Safety Considerations"
-date: "2024-05-28"
-time: "10:30:00"
+date: "MAY 28,2024"
+time: "10:30 AM"
 draft: false
 tags: ["medicine", "herbal remedies", "alternative medicine"]
 thumbnail: "/img/herbal_remedies.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Diabetes Management: Tips and Strategies"
-date: "2024-05-03"
-time : "11:30:00"
+date: "March 05,2024"
+time : "11:30 AM"
 draft: false
 tags: ["medicine", "diabetes", "endocrinology"]
 thumbnail: "/img/diabetes.jpg"

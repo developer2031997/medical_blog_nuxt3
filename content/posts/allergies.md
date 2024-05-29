@@ -1,7 +1,7 @@
 ---
 title: "Understanding Allergies: Causes and Treatments"
-date: "2024-05-01"
-time : "09:30:00"
+date: "January 01,2024"
+time : "09:30 AM"
 draft: false
 tags: ["medicine", "allergies", "immunology"]
 thumbnail: "/img/allergies.jpg"

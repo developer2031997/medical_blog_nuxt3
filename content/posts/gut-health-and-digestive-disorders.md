@@ -1,7 +1,7 @@
 ---
 title: "Gut Health and Digestive Disorders: Insights and Dietary Interventions"
-date: "2024-05-28"
-time: "11:30:00"
+date: "May 28,2024"
+time: "11:30 AM"
 draft: false
 tags: ["medicine", "gut health", "digestive disorders"]
 thumbnail: "/img/gut_health.jpg"

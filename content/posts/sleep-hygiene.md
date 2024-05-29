@@ -1,7 +1,7 @@
 ---
 title: "The Importance of Sleep Hygiene"
-date: "2024-05-13"
-time : "22:00:00"
+date: "MAY 13,2024"
+time : "03:00 PM"
 draft: false
 tags: ["sleep", "health", "well-being"]
 thumbnail: "/img/sleep.jpg"

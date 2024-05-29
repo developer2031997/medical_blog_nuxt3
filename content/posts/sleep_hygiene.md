@@ -1,7 +1,7 @@
 ---
 title: "Sleep Hygiene: Tips for Better Sleep"
-date: "2024-05-07"
-time : "06:00:00"
+date: "MAY 07,2024"
+time : "06:00 PM"
 draft: false
 tags: ["medicine", "sleep", "wellness"]
 thumbnail: "/img/sleep.jpg"

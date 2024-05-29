@@ -1,7 +1,7 @@
 ---
 title: "Psychotropic Medications: Uses, Side Effects, and Considerations"
-date: "2024-05-28"
-time: "12:00:00"
+date: "MAY 28,2024"
+time: "12:00 PM"
 draft: false
 tags: ["medicine", "psychotropic medications", "mental health"]
 thumbnail: "/img/psychotropic_medications.jpg"

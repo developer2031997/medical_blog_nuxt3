@@ -1,7 +1,7 @@
 ---
 title: "Exercise and Fitness"
-date: "2024-05-12"
-time : "08:00:00"
+date: "March 05,2024"
+time : "08:00 PM"
 draft: false
 tags: ["fitness", "exercise", "health"]
 thumbnail: "/img/exercise.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Sleep Disorders: Types, Diagnosis, and Treatment Approaches"
-date: "2024-05-28"
-time: "11:00:00"
+date: "MAY 24,2024"
+time: "11:00 AM"
 draft: false
 tags: ["medicine", "sleep disorders", "insomnia"]
 thumbnail: "/img/sleep_disorders.jpg"

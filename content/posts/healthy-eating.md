@@ -1,7 +1,7 @@
 ---
 title: "Healthy Eating for a Better Life"
-date: "2024-05-30"
-time : "10:00:00"
+date: "May 30,2024"
+time : "10:00 AM"
 draft: false
 tags: ["nutrition", "health", "diet"]
 thumbnail: "/img/healthy-eating.jpg"

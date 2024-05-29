@@ -1,7 +1,7 @@
 ---
 title: "Nutritional Supplements: Benefits, Risks, and Evidence-Based Recommendations"
-date: "2024-05-28"
-time: "12:30:00"
+date: "MAY 28,2024"
+time: "12:30 PM"
 draft: false
 tags: ["medicine", "nutritional supplements", "dietary supplements"]
 thumbnail: "/img/nutritional_supplements.jpg"

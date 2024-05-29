@@ -19,7 +19,8 @@
             </select>
           </div>
           <div class="col-auto">
-            <select v-model="selectedCategory" @change="applyFilter" class="form-select post-input" :disabled="isCategoryDisabled">
+            <select v-model="selectedCategory" @change="applyFilter" class="form-select post-input"
+              :disabled="isCategoryDisabled">
               <option disabled value="">Filter By Category</option>
               <option v-for="category in categories" :key="category" :value="category" class="py-5">{{ category }} ({{
                 getCategoryCount(category) }})</option>
@@ -64,11 +65,11 @@
           </div>
         </div>
 
-        <div v-if="loading" class="row text-center py-5">
-          <h2>Data Is fetching, please wait ....</h2>
+        <div v-if="loading" class="row text-center py-5 my-5" >
+          <h2 >Data Is fetching, please wait ....</h2>
         </div>
 
-        <div v-if="noDataFound" class="row text-center py-5">
+        <div v-if="noDataFound" class="row text-center py-5 my-5">
           <h2>Article not found...</h2>
         </div>
       </div>
@@ -100,7 +101,7 @@ console.log(selectedSubCategory.value.toLowerCase());
 const subCategories = ref({
   health: ['Nutrition', 'Exercise', 'Mental Health'],
   wellness: ['Yoga', 'Meditation', 'Lifestyle'],
-  // medicine: ['Vaccination', 'Diseases', 'Treatments']
+  medicine: [categories.value]
 });
 
 const fetchArticles = async () => {
@@ -122,22 +123,29 @@ const serchPost = (e) => {
   e.preventDefault();
 }
 
-
 watch(search, (newValue) => {
   selectedCategory.value = ''; // Clear selected category
   applyFilter(); // Apply filters after resetting the category
 
-
   const searchTerm = newValue.toLowerCase();
-  if (searchTerm.trim() === "") {
-    filteredPosts.value = articles.value;
-  }
-  else {
-    filteredPosts.value = articles.value.filter(article =>
-      article.title.toLowerCase().includes(searchTerm) ||
-      (article.tags && article.tags.some(tag => tag.toLowerCase().includes(searchTerm)))
-    );
-  }
+
+  filteredPosts.value = searchTerm.trim() === "" ? articles.value : articles.value.filter(article =>
+    article.title.toLowerCase().includes(searchTerm) ||
+    (article.tags && article.tags.some(tag => tag.toLowerCase().includes(searchTerm)))
+  );
+
+
+  // if (searchTerm.trim() === "") {
+  //   filteredPosts.value = articles.value;
+  // }
+  // else {
+  //   filteredPosts.value = articles.value.filter(article =>
+  //     article.title.toLowerCase().includes(searchTerm) ||
+  //     (article.tags && article.tags.some(tag => tag.toLowerCase().includes(searchTerm)))
+  //   );
+  // }
+
+
   // Check if filtered posts array is empty
   if (filteredPosts.value.length === 0) {
     // Set a flag to indicate no data was found
@@ -332,9 +340,22 @@ body {
   background-color: #ddd;
 }
 
-@media screen and (max-width : 480px){
+@media screen and (max-width : 480px) {
   .post-input {
-  width: 320px !important;
-}
+    width: 320px !important;
+  }
 }
 </style>
+
+// const dynamicSubCategories = computed(() => {
+// if (!selectedCategory.value) return [];
+
+// const subCategoriesSet = new Set();
+// articles.value.forEach(article => {
+// if (article.tags.includes(selectedCategory.value) && article.subCategory) {
+// subCategoriesSet.add(article.subCategory);
+// }
+// });
+
+// return [...subCategoriesSet];
+// });

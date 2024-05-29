@@ -1,7 +1,7 @@
 ---
 title: "Nutrition and Health: What You Need to Know"
-date: "2024-05-06"
-time : "03:00:00"
+date: "MAY 06,2024"
+time : "03:00 PM"
 draft: false
 tags: ["medicine", "nutrition", "wellness"]
 thumbnail: "/img/nutrition.jpg"

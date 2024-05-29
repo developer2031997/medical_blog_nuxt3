@@ -1,7 +1,7 @@
 ---
 title: "Effective Stress Management"
-date: "2024-05-14"
-time : "18:00:00"
+date: "MAY 10,2024"
+time : "03:00 PM"
 draft: false
 tags: ["stress", "mental health", "well-being"]
 thumbnail: "/img/stress-management.jpg"
